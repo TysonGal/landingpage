@@ -48,8 +48,61 @@ a {
 
 .hero-body {
     max-width: 500px;
-}
-
-img {
+    font-size: 18px;
+    color: #bebebe;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     max-width: 450px;
+    margin-right: 20px;
+}
+.hero-body h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+    margin: 0;
+}
+.button-one {
+    background-color: #3882F6;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin: 8px;
+    border-radius: 8px;
+    border: 0px;
+    color: #f9faf8;
+}
+.spider {
+    max-width: 450px;
+}
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+.title-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    padding: 20px;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+.card-1, .card-2, .card-3, .card-4 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+    text-align: center;
+    
+
+}
+.cat {
+    max-width: 200px;
+    border-radius: 8px;
 }
