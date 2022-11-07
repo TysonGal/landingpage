@@ -5,6 +5,7 @@ body {
     padding: 0;
     margin: 0;
 }
+
 .container-1 {
     background-color: #1F2937;
     padding-left: 52px;
@@ -19,12 +20,14 @@ body {
     padding-left: 15%;
     padding-right: 15%;
 }
+
 ul {
     list-style: none;
     display: flex;
     gap: 12px;
 
 }
+
 a {
     text-decoration: none;
     color: #E5E7EB;
@@ -35,12 +38,14 @@ a {
     font-size: 24px;
 }
 
-.header-left, .header-right {
+.header-left,
+.header-right {
     display: flex;
     align-items: center;
     gap: 16px;
     margin: 16px;
 }
+
 .content-1 {
     display: flex;
     align-items: center;
@@ -58,12 +63,14 @@ a {
     max-width: 450px;
     margin-right: 20px;
 }
+
 .hero-body h2 {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 800;
     margin: 0;
 }
+
 .button-one {
     background-color: #3882F6;
     font-size: 16px;
@@ -74,9 +81,11 @@ a {
     border: 0px;
     color: #f9faf8;
 }
+
 .spider {
     max-width: 450px;
 }
+
 .container-2 {
     display: flex;
     flex-direction: column;
@@ -85,6 +94,7 @@ a {
     padding-bottom: 26px;
     background-color: #7700ff7c;
 }
+
 .title-2 {
     display: flex;
     align-items: center;
@@ -94,21 +104,28 @@ a {
     font-weight: 800;
     padding: 20px;
 }
+
 .cards {
     display: flex;
     justify-content: center;
     gap: 22px;
 }
-.card-1, .card-2, .card-3, .card-4 {
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
     display: flex;
     flex-wrap: wrap;
     max-width: 200px;
     text-align: center;
 }
+
 .cat {
     max-width: 200px;
     border-radius: 8px;
 }
+
 .container-3 {
     background-color: #b0b0b0;
     display: flex;
@@ -117,18 +134,21 @@ a {
     flex-direction: column;
     align-items: center;
 }
+
 .quote {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
-   max-width: 750px;
-   font-weight: lighter;
+    max-width: 750px;
+    font-weight: lighter;
 }
+
 .end {
     align-self: flex-end;
     padding-right: 300px;
     font-weight: 700;
 }
+
 .container-4 {
     display: flex;
     justify-content: center;
@@ -146,6 +166,7 @@ a {
     align-items: center;
     justify-content: space-between;
 }
+
 .button-2 {
     background: #3882F6;
     border-radius: 6px;
@@ -155,12 +176,14 @@ a {
     color: #E5E7EB;
     align-self: flex-end;
 }
+
 .title-3 {
     font-weight: bold;
     width: 100%;
 }
+
 .action {
-    
+
     font-weight: lighter;
 }
 
