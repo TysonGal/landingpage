@@ -16,6 +16,8 @@ body {
     justify-content: space-between;
     font-size: 18px;
     color: #E5E7EB;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 ul {
     list-style: none;
@@ -94,15 +96,14 @@ a {
 }
 .cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 22px;
 }
 .card-1, .card-2, .card-3, .card-4 {
     display: flex;
     flex-wrap: wrap;
     max-width: 200px;
     text-align: center;
-    
-
 }
 .cat {
     max-width: 200px;
